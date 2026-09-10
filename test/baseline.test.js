@@ -1,0 +1,2 @@
+import test from 'node:test'; import assert from 'node:assert/strict'; import { readFile } from 'node:fs/promises'; import { absenceStates, invitationStates } from '../src/domain.js';
+test('缺岗样例提供接续所需的时间边界', async () => { const data=JSON.parse(await readFile(new URL('../fixtures/absence-context.json', import.meta.url))); assert.ok(absenceStates.includes(data.state)); assert.ok(Date.parse(data.endsAt)>Date.parse(data.startsAt)); assert.ok(data.responseSeconds>0); assert.ok(invitationStates.includes('expired')); });
