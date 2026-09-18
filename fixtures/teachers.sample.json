@@ -1,0 +1,28 @@
+[
+  {
+    "id": "t1001",
+    "name": "张老师",
+    "subjects": ["chinese", "chinese-composition"],
+    "dailyMax": 4,
+    "consecutiveMax": 4,
+    "schedule": [
+      { "classRef": "CLASS-9B", "startsAt": "2026-09-11T10:00:00+08:00", "endsAt": "2026-09-11T10:45:00+08:00" }
+    ]
+  },
+  {
+    "id": "t1002",
+    "name": "李老师",
+    "subjects": ["chinese"],
+    "dailyMax": 3,
+    "consecutiveMax": 4,
+    "schedule": []
+  },
+  {
+    "id": "t1003",
+    "name": "王老师",
+    "subjects": ["math"],
+    "dailyMax": 6,
+    "consecutiveMax": 4,
+    "schedule": []
+  }
+]
