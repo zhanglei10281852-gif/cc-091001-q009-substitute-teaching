@@ -1,0 +1,51 @@
+[
+  {
+    "id": "T07",
+    "name": "陈老师（缺岗本人）",
+    "subjects": ["chinese"],
+    "dailyLoadMinutes": 240,
+    "schedule": [{ "startsAt": "2026-09-11T08:00:00+08:00", "endsAt": "2026-09-11T08:45:00+08:00" }]
+  },
+  {
+    "id": "T01",
+    "name": "林老师",
+    "subjects": ["chinese", "ethics"],
+    "dailyLoadMinutes": 180,
+    "schedule": []
+  },
+  {
+    "id": "T02",
+    "name": "赵老师",
+    "subjects": ["chinese"],
+    "dailyLoadMinutes": 90,
+    "schedule": [{ "startsAt": "2026-09-11T09:00:00+08:00", "endsAt": "2026-09-11T09:45:00+08:00" }]
+  },
+  {
+    "id": "T03",
+    "name": "钱老师",
+    "subjects": ["math"],
+    "dailyLoadMinutes": 240,
+    "schedule": []
+  },
+  {
+    "id": "T04",
+    "name": "孙老师",
+    "subjects": ["chinese"],
+    "dailyLoadMinutes": 240,
+    "schedule": [{ "startsAt": "2026-09-11T07:10:00+08:00", "endsAt": "2026-09-11T07:55:00+08:00" }]
+  },
+  {
+    "id": "T05",
+    "name": "周老师",
+    "subjects": ["chinese"],
+    "dailyLoadMinutes": 60,
+    "schedule": [{ "startsAt": "2026-09-11T10:00:00+08:00", "endsAt": "2026-09-11T10:45:00+08:00" }]
+  },
+  {
+    "id": "T06",
+    "name": "吴老师",
+    "subjects": ["chinese"],
+    "dailyLoadMinutes": 240,
+    "schedule": [{ "startsAt": "2026-09-11T08:05:00+08:00", "endsAt": "2026-09-11T08:50:00+08:00" }]
+  }
+]
